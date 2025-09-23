@@ -1,0 +1,20 @@
+{
+  "name": "express-practices",
+  "version": "1.0.0",
+  "description": "this is my first node project init",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "open": "node app.js"
+  },
+  "author": "Shifat",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
